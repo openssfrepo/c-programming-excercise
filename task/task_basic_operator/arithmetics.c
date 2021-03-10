@@ -1,8 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int a=15, b=45, c;
-
+    int a, b, c;
+printf("Enter two numbers: \n");
+scanf("%d%d",&a,&b);
      c= a+b;
     printf("a+b = %d \n",c);
     c= a-b;
